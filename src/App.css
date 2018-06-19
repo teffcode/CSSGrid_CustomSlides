@@ -12,6 +12,15 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  width: 400px;
+  height: 200px;
+}
+
+header {
+  top: -10px;
+}
+
 footer {
   color: #fff;
   text-align: center;

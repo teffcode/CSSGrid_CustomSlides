@@ -1,0 +1,59 @@
+.logo {
+    position: relative;
+}
+
+.logo_principal_text {
+    display: inline;
+    background-color: #b9e7f4;
+    margin-left: 20px;
+    padding: 3px 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.logo_text {
+    font-size: 12px;
+    margin: 5px 57px;
+    color: gray;
+    position: absolute;
+    top: 45px;
+}
+
+.logo img {
+    width: 23px;
+    height: 26px;
+}
+
+.logo_images {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    width: 55px;
+    height: 42px;
+}
+
+.tree_sheet_orange {
+    position: absolute;
+    top: 3px;
+    animation: tree_sheet_orange 2s linear infinite;
+}
+
+.tree_sheet_yellow {
+    position: absolute;
+    top: 22px;
+    left: 18px;
+    animation: tree_sheet_yellow 2s linear infinite;    
+}
+
+@keyframes tree_sheet_orange {
+    0% { transform: rotate(45deg) }
+    50% { transform: rotate(0deg) }
+    100% { transform: rotate(45deg) }    
+}
+
+@keyframes tree_sheet_yellow {
+    0% { transform: rotate(-45deg) }
+    50% { transform: rotate(0deg) }
+    100% { transform: rotate(-45deg) }    
+}

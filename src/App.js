@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { SectionsContainer, Section, Header, Footer } from 'react-fullpage';
 
-import './App.css';
+import Logo from './components/Logo/Logo';
 
+import './App.css';
 
 class App extends Component {
   constructor(props) {
@@ -29,13 +30,17 @@ class App extends Component {
 
     return (
       <div>
+        <Header className="header">
+          <Logo/>       
+        </Header>
         <SectionsContainer className="container" {...options} activeSection={current}>
-          <Section color="#FFF" verticalAlign="true">Page 1</Section>
+          <Section color="#FFF" verticalAlign="true">Page 1
+          </Section>
           <Section color="#FFF" verticalAlign="true">Page 2</Section>
           <Section color="#FFF" verticalAlign="true" >Page 3</Section>
         </SectionsContainer>
         <Footer className="footer">
-          <a href="https://github.com/teffcode">GitHub</a>
+          <a href="https://github.com/teffcode">Github</a>
           <a href="https://twitter.com/teffcode">Twitter</a>
           <a href="https://www.instagram.com/teffcode/">Instagram</a>
         </Footer>
