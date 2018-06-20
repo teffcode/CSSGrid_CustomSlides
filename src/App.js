@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { SectionsContainer, Section, Header, Footer } from 'react-fullpage';
 
 import Logo from './components/Logo/Logo';
+import Slide1 from './components/Slide1/Slide1';
+import Slide2 from './components/Slide2/Slide2';
 
 import './App.css';
 
@@ -16,9 +18,13 @@ class App extends Component {
   render() {
     const options = {
       sectionClassName: 'section',
-      anchors: ['sectionOne', 'sectionTwo', 'sectionThree'],
+      anchors: [
+                'Slide1', 
+                'Slide2', 
+                'Slide3'
+                ],
       scrollBar: false,
-      navigation: true,
+      navigation: false,
       verticalAlign: false,
       sectionPaddingTop: '50px',
       sectionPaddingBottom: '50px',
@@ -35,8 +41,11 @@ class App extends Component {
         </Header>
         <SectionsContainer className="container" {...options} activeSection={current}>
           <Section color="#FFF" verticalAlign="true">Page 1
+            <Slide1 yellow/>
           </Section>
-          <Section color="#FFF" verticalAlign="true">Page 2</Section>
+          <Section color="#FFF" verticalAlign="true">Page 2
+            <Slide2 />          
+          </Section>
           <Section color="#FFF" verticalAlign="true" >Page 3</Section>
         </SectionsContainer>
         <Footer className="footer">
