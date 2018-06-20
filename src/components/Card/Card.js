@@ -37,12 +37,15 @@ const CardExternal = styled.div`
     top: 10px; 
     box-shadow: 0 5px 5px rgba(0,0,0,0.19);   
     transform: ${({yellow}) => (yellow ? 'rotate(-1deg)' : 'rotate(1deg)')};    
+    padding: 20px;
 `
 
 const Card = ({ yellow, children }) =>
     <CardContainer>
-        <img src={tape} alt="Tape"/>
-        <CardExternal yellow={yellow}/>
+        <img src={tape} alt="tape"/>
+        <CardExternal yellow={yellow}>
+            {children}
+        </CardExternal>
         <CardInternal yellow={yellow}/>
     </CardContainer>
 

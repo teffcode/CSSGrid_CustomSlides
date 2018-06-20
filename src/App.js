@@ -40,11 +40,11 @@ class App extends Component {
           <Logo/>       
         </Header>
         <SectionsContainer className="container" {...options} activeSection={current}>
-          <Section color="#FFF" verticalAlign="true">Page 1
-            <Slide1 yellow/>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide1/>
           </Section>
-          <Section color="#FFF" verticalAlign="true">Page 2
-            <Slide2 />          
+          <Section color="#FFF" verticalAlign="true">
+            <Slide2/>          
           </Section>
           <Section color="#FFF" verticalAlign="true" >Page 3</Section>
         </SectionsContainer>
