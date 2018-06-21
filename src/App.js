@@ -4,6 +4,7 @@ import { SectionsContainer, Section, Header, Footer } from 'react-fullpage';
 import Logo from './components/Logo/Logo';
 import Slide1 from './components/Slide1/Slide1';
 import Slide2 from './components/Slide2/Slide2';
+import Slide3 from './components/Slide3/Slide3';
 
 import './App.css';
 
@@ -46,7 +47,9 @@ class App extends Component {
           <Section color="#FFF" verticalAlign="true">
             <Slide2/>          
           </Section>
-          <Section color="#FFF" verticalAlign="true" >Page 3</Section>
+          <Section color="#FFF" verticalAlign="true" >
+            <Slide3/>                    
+          </Section>
         </SectionsContainer>
         <Footer className="footer">
           <a href="https://github.com/teffcode">Github</a>
