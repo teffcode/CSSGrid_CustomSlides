@@ -19,7 +19,7 @@ const Slide1 = () =>
                 <li>Telecommunications Engineer.</li>
                 <li>CoderDojo volunteer.</li>
             </ul>
-            <TextBackground pink>@teffcode</TextBackground>
+            <TextBackground>@teffcode</TextBackground>
         </Card>
     </Slide1Container>;
 

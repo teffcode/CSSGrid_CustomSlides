@@ -8,7 +8,7 @@ const CardContainer = styled.div`
     height: 440px;
     position: relative;
     margin: 20px;
-    img {
+    > img {
         position: absolute;
         top: -45px;
         left: 130px;
