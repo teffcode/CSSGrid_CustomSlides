@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import TextBackground from '../TextBackground/TextBackground';
+import TextWithLink from '../TextWithLink/TextWithLink';
 
 import align_items from '../../assets/align_items.PNG';
 import align_content from '../../assets/align_content.PNG';
@@ -28,6 +29,7 @@ const Slide10_3 = () =>
         <img src={align_content} alt="align_content"/>
         <img src={align_self} alt="align_self"/>
     </div>
+    <TextWithLink link="https://css-tricks.com/snippets/css/complete-guide-grid/">css-tricks</TextWithLink><br/>    
 </Slide10_3Container>
 
 export default Slide10_3;
