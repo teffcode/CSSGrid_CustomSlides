@@ -10,10 +10,20 @@ import Slide5 from './components/Slide5/Slide5';
 import Slide6 from './components/Slide6/Slide6';
 import Slide7 from './components/Slide7/Slide7';
 import Slide7_1 from './components/Slide7_1/Slide7_1';
+import Slide7_2 from './components/Slide7_2/Slide7_2';
 import Slide8 from './components/Slide8/Slide8';
+import Slide8_1 from './components/Slide8_1/Slide8_1';
+import Slide8_2 from './components/Slide8_2/Slide8_2';
+import Slide8_3 from './components/Slide8_3/Slide8_3';
+import Slide8_4 from './components/Slide8_4/Slide8_4';
 import Slide9 from './components/Slide9/Slide9';
+import Slide9_1 from './components/Slide9_1/Slide9_1';
+import Slide9_2 from './components/Slide9_2/Slide9_2';
+import Slide9_3 from './components/Slide9_3/Slide9_3';
+import Slide9_4 from './components/Slide9_4/Slide9_4';
 import Slide10 from './components/Slide10/Slide10';
 import Slide11 from './components/Slide11/Slide11';
+import Slide11_1 from './components/Slide11_1/Slide11_1';
 import Slide12 from './components/Slide12/Slide12';
 import Slide13 from './components/Slide13/Slide13';
 
@@ -39,10 +49,20 @@ class App extends Component {
                 'Slide6/content',
                 'Slide7/basics_of_css_grid',
                 'Slide7_1/basics_of_css_grid',
+                'Slide7_2/basics_of_css_grid',
                 'Slide8/important_terminology',
+                'Slide8_1/important_terminology',
+                'Slide8_2/important_terminology',
+                'Slide8_3/important_terminology',
+                'Slide8_4/important_terminology',
                 'Slide9/repeaters_measurement_units_and_funtions',
+                'Slide9_1/repeaters_measurement_units_and_funtions',
+                'Slide9_2/repeaters_measurement_units_and_funtions',
+                'Slide9_3/repeaters_measurement_units_and_funtions',
+                'Slide9_4/repeaters_measurement_units_and_funtions',
                 'Slide10/grid_properties',
                 'Slide11/can_i_use',
+                'Slide11_1/can_i_use',
                 'Slide12/about_my_presentation',
                 'Slide13/good_night'
                 ],
@@ -88,15 +108,46 @@ class App extends Component {
             <Slide7_1/>          
           </Section>
           <Section color="#FFF" verticalAlign="true">
+            <Slide7_2/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
             <Slide8/>          
-          </Section><Section color="#FFF" verticalAlign="true">
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide8_1/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide8_2/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide8_3/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide8_4/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
             <Slide9/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide9_1/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide9_2/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide9_3/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide9_4/>          
           </Section>
           <Section color="#FFF" verticalAlign="true">
             <Slide10/>          
           </Section>
           <Section color="#FFF" verticalAlign="true">
             <Slide11/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide11_1/>          
           </Section>
           <Section color="#FFF" verticalAlign="true">
             <Slide12/>          
