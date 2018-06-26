@@ -22,6 +22,9 @@ import Slide9_2 from './components/Slide9_2/Slide9_2';
 import Slide9_3 from './components/Slide9_3/Slide9_3';
 import Slide9_4 from './components/Slide9_4/Slide9_4';
 import Slide10 from './components/Slide10/Slide10';
+import Slide10_1 from './components/Slide10_1/Slide10_1';
+import Slide10_2 from './components/Slide10_2/Slide10_2';
+import Slide10_3 from './components/Slide10_3/Slide10_3';
 import Slide11 from './components/Slide11/Slide11';
 import Slide11_1 from './components/Slide11_1/Slide11_1';
 import Slide12 from './components/Slide12/Slide12';
@@ -60,7 +63,10 @@ class App extends Component {
                 'Slide9_2/repeaters_measurement_units_and_funtions',
                 'Slide9_3/repeaters_measurement_units_and_funtions',
                 'Slide9_4/repeaters_measurement_units_and_funtions',
-                'Slide10/grid_properties',
+                'Slide10/other_properties',
+                'Slide10_1/other_properties',
+                'Slide10_2/other_properties',
+                'Slide10_3/other_properties',
                 'Slide11/can_i_use',
                 'Slide11_1/can_i_use',
                 'Slide12/about_my_presentation',
@@ -142,6 +148,15 @@ class App extends Component {
           </Section>
           <Section color="#FFF" verticalAlign="true">
             <Slide10/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide10_1/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide10_2/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide10_3/>          
           </Section>
           <Section color="#FFF" verticalAlign="true">
             <Slide11/>          

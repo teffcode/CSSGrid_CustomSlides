@@ -14,7 +14,7 @@ const Slide10Container = styled.div`
 
 const Slide10 = () => 
     <Slide10Container>
-        <Title>Grid properties, table of contents</Title>
+        <Title>Other properties</Title>
         <img src={frannerd_illustration5} alt="frannerd_illustration2"/>
     </Slide10Container>;
 
