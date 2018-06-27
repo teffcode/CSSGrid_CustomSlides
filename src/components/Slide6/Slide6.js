@@ -22,7 +22,7 @@ const Slide6 = () =>
             <li>Basics of CSS Grid</li>
             <li>Important terminology</li>
             <li>Repeaters, measurement units & functions</li>
-            <li>Grid properties, table of contents</li>
+            <li>Other properties</li>
             <li>Can I Use ?</li>
         </Text>
     </Slide6Container>

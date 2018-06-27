@@ -14,7 +14,7 @@ const Slide8Container = styled.div`
 
 const Slide8 = () => 
     <Slide8Container>
-        <Title>Important terminology</Title>
+        <Title>Basics of CSS Grid</Title>
         <img src={frannerd_illustration3} alt="frannerd_illustration2"/>
     </Slide8Container>;
 
