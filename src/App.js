@@ -10,6 +10,7 @@ import Slide5 from './components/Slide5/Slide5';
 import Slide6 from './components/Slide6/Slide6';
 import Slide7 from './components/Slide7/Slide7';
 import Slide7_1 from './components/Slide7_1/Slide7_1';
+import Slide7_2 from './components/Slide7_2/Slide7_2';
 import Slide8 from './components/Slide8/Slide8';
 import Slide9 from './components/Slide9/Slide9';
 import Slide10 from './components/Slide10/Slide10';
@@ -39,6 +40,7 @@ class App extends Component {
                 'Slide6/content',
                 'Slide7/basics_of_css_grid',
                 'Slide7_1/basics_of_css_grid',
+                'Slide7_2/basics_of_css_grid',
                 'Slide8/important_terminology',
                 'Slide9/repeaters_measurement_units_and_funtions',
                 'Slide10/grid_properties',
@@ -86,6 +88,9 @@ class App extends Component {
           </Section>
           <Section color="#FFF" verticalAlign="true">
             <Slide7_1/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide7_2/>          
           </Section>
           <Section color="#FFF" verticalAlign="true">
             <Slide8/>          

@@ -6,14 +6,13 @@ import tape from '../../assets/tape.png';
 import black_lines from '../../assets/black_lines.png';
 
 const CardContainer = styled.div`
-    width: 288px;
-    height: 358px;
-    display: inline-block;
+    width: 438px;
+    height: 398px;
     position: relative;
     margin: 20px;
     img {
-        width: 280px;
-        height: 350px;
+        width: 430px;
+        height: 390px;
         object-fit: cover;
         position: absolute;
         top: 8px;
@@ -21,8 +20,8 @@ const CardContainer = styled.div`
 `;
 
 const CardExternal = styled.div`
-    width: 280px;
-    height: 350px;
+    width: 430px;
+    height: 390px;
     position: absolute;
     z-index: 2;   
     left: 8px;
