@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import TextBackground from '../TextBackground/TextBackground';
+import TextWithLink from '../TextWithLink/TextWithLink';
 
 import can_i_use from '../../assets/can_i_use.png';
 
@@ -12,15 +12,16 @@ const Slide11_1Container = styled.div`
     align-items: center;
     flex-direction: column;
     img {
-        width: 55%;
-        height: 470px;
-        pbject-fit: cover;
+        width: 60%;
+        height: 450px;
+        margin-bottom: 30px;
     }
 `;
 
 const Slide11_1 = () => 
     <Slide11_1Container>
         <img src={can_i_use} />
+        <TextWithLink link="https://caniuse.com/#search=css%20grid">Can I use</TextWithLink>
     </Slide11_1Container>
 
 export default Slide11_1;

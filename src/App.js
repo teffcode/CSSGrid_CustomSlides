@@ -14,8 +14,6 @@ import Slide7_2 from './components/Slide7_2/Slide7_2';
 import Slide8 from './components/Slide8/Slide8';
 import Slide8_1 from './components/Slide8_1/Slide8_1';
 import Slide8_2 from './components/Slide8_2/Slide8_2';
-import Slide8_3 from './components/Slide8_3/Slide8_3';
-import Slide8_4 from './components/Slide8_4/Slide8_4';
 import Slide9 from './components/Slide9/Slide9';
 import Slide9_1 from './components/Slide9_1/Slide9_1';
 import Slide9_2 from './components/Slide9_2/Slide9_2';
@@ -23,6 +21,7 @@ import Slide9_3 from './components/Slide9_3/Slide9_3';
 import Slide9_4 from './components/Slide9_4/Slide9_4';
 import Slide10 from './components/Slide10/Slide10';
 import Slide10_1 from './components/Slide10_1/Slide10_1';
+import Slide10_1_1 from './components/Slide10_1_1/Slide10_1_1';
 import Slide10_2 from './components/Slide10_2/Slide10_2';
 import Slide10_3 from './components/Slide10_3/Slide10_3';
 import Slide11 from './components/Slide11/Slide11';
@@ -56,8 +55,6 @@ class App extends Component {
                 'Slide8/important_terminology',
                 'Slide8_1/important_terminology',
                 'Slide8_2/important_terminology',
-                'Slide8_3/important_terminology',
-                'Slide8_4/important_terminology',
                 'Slide9/repeaters_measurement_units_and_funtions',
                 'Slide9_1/repeaters_measurement_units_and_funtions',
                 'Slide9_2/repeaters_measurement_units_and_funtions',
@@ -65,6 +62,7 @@ class App extends Component {
                 'Slide9_4/repeaters_measurement_units_and_funtions',
                 'Slide10/other_properties',
                 'Slide10_1/other_properties',
+                'Slide10_1_1/other_properties',
                 'Slide10_2/other_properties',
                 'Slide10_3/other_properties',
                 'Slide11/can_i_use',
@@ -126,12 +124,6 @@ class App extends Component {
             <Slide8_2/>          
           </Section>
           <Section color="#FFF" verticalAlign="true">
-            <Slide8_3/>          
-          </Section>
-          <Section color="#FFF" verticalAlign="true">
-            <Slide8_4/>          
-          </Section>
-          <Section color="#FFF" verticalAlign="true">
             <Slide9/>          
           </Section>
           <Section color="#FFF" verticalAlign="true">
@@ -151,6 +143,9 @@ class App extends Component {
           </Section>
           <Section color="#FFF" verticalAlign="true">
             <Slide10_1/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide10_1_1/>          
           </Section>
           <Section color="#FFF" verticalAlign="true">
             <Slide10_2/>          

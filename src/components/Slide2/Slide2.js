@@ -15,21 +15,3 @@ const Slide2 = () =>
     </Slide2Container>;
 
 export default Slide2;
-
-/*
-import CardCode from '../CardCode/CardCode';
-import TextBackground from '../TextBackground/TextBackground';
-
-const CodeIdentation = styled.div`
-    margin-left: 10px;
-`;
-
-
-<CardCode>
-<TextBackground pink>.container</TextBackground><br/>
-<CodeIdentation>
-    <p>display: grid;</p>
-    <p>grid-template-column: repeat(5, 1fr);</p>
-</CodeIdentation>
-</CardCode>;
-*/

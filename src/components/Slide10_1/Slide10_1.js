@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import TextBackground from '../TextBackground/TextBackground';
 
-import cssgrid1 from '../../assets/cssgrid1.gif';
+import implicit1 from '../../assets/implicit1.gif';
 
 const Slide10_1Container = styled.div`
     width: 100%;
@@ -12,16 +12,16 @@ const Slide10_1Container = styled.div`
     align-items: center;
     flex-direction: column;
     img {
-        width: 680px;
-        height: 340px;
+        width: 685px;
+        height: 360px;
         margin-top: 50px;
     }
 `;
 
 const Slide10_1 = () => 
-<Slide10_1Container>
-    <TextBackground>implicit grid</TextBackground>
-    <img src={cssgrid1} />
-</Slide10_1Container>
+    <Slide10_1Container>
+        <TextBackground>implicit grid</TextBackground>
+        <img src={implicit1} />
+    </Slide10_1Container>
 
 export default Slide10_1;

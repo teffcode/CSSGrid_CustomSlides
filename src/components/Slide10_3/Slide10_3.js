@@ -22,14 +22,14 @@ const Slide10_3Container = styled.div`
 `;
 
 const Slide10_3 = () => 
-<Slide10_3Container>
-    <TextBackground>align- items/content/self</TextBackground>
-    <div>
-        <img src={align_items} alt="align_items"/>
-        <img src={align_content} alt="align_content"/>
-        <img src={align_self} alt="align_self"/>
-    </div>
-    <TextWithLink link="https://css-tricks.com/snippets/css/complete-guide-grid/">css-tricks</TextWithLink><br/>    
-</Slide10_3Container>
+    <Slide10_3Container>
+        <TextBackground>align- items/content/self</TextBackground>
+        <div>
+            <img src={align_items} alt="align_items"/>
+            <img src={align_content} alt="align_content"/>
+            <img src={align_self} alt="align_self"/>
+        </div>
+        <TextWithLink link="https://css-tricks.com/snippets/css/complete-guide-grid/">css-tricks</TextWithLink><br/>    
+    </Slide10_3Container>
 
 export default Slide10_3;

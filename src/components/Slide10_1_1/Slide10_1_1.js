@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 import TextBackground from '../TextBackground/TextBackground';
 
-import cssgrid1 from '../../assets/cssgrid1.gif';
+import implicit2 from '../../assets/implicit2.gif';
 
-const Slide8_3Container = styled.div`
+const Slide10_1_1Container = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
@@ -18,10 +18,10 @@ const Slide8_3Container = styled.div`
     }
 `;
 
-const Slide8_3 = () => 
-<Slide8_3Container>
-    <TextBackground>Grid Cell</TextBackground>
-    <img src={cssgrid1} />
-</Slide8_3Container>
+const Slide10_1_1 = () => 
+    <Slide10_1_1Container>
+        <TextBackground>implicit grid (grid-auto-flow)</TextBackground>
+        <img src={implicit2} />
+    </Slide10_1_1Container>
 
-export default Slide8_3;
+export default Slide10_1_1;

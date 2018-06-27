@@ -2,26 +2,26 @@ import React from 'react';
 import styled from 'styled-components';
 
 import TextBackground from '../TextBackground/TextBackground';
+import TextWithLink from '../TextWithLink/TextWithLink';
 
-import cssgrid1 from '../../assets/cssgrid1.gif';
+import area from '../../assets/area.png';
 
-const Slide8_2Container = styled.div`
+const Slide8_1Container = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     img {
-        width: 680px;
-        height: 340px;
-        margin-top: 50px;
+        width: 600px;
+        height: 450px;
+        margin-top: 30px;
     }
 `;
 
-const Slide8_2 = () => 
-<Slide8_2Container>
-    <TextBackground>Grid Track</TextBackground>
-    <img src={cssgrid1} />
-</Slide8_2Container>
-
-export default Slide8_2;
+const Slide8_1 = () => 
+    <Slide8_1Container>
+        <TextBackground>Grid area - example</TextBackground>
+        <img src={area} />
+    </Slide8_1Container>
+export default Slide8_1;
