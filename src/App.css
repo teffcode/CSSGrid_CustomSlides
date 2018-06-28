@@ -19,6 +19,37 @@ img {
 
 header {
   top: -10px;
+  position: relative;
+}
+
+header img {
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+
+.header_cloud1 {
+  top: 10px;
+  right: 200px;
+  animation: cloud1 50s linear 1s infinite;
+}
+
+.header_cloud2 {
+  top: 35px;
+  right: 100px;
+  animation: cloud2 40s linear 1s infinite;
+}
+
+.header_cloud3 {
+  top: 40px;
+  right: 200px;
+  animation: cloud3 25s linear 1s infinite;
+}
+
+.header_cloud4 {
+  top: 3px;
+  right: 240px;
+  animation: cloud4 60s linear 1s infinite;
 }
 
 footer {
@@ -57,4 +88,52 @@ button {
   bottom: 20px;
   right: 20px;
   z-index: 9;
+}
+
+@keyframes cloud1 {
+  0% {
+    transform: translateX(0px)
+  }
+  50% {
+    transform: translateX(150px)
+  }
+  100% {
+    transform: translateX(0px)
+  }
+}
+
+@keyframes cloud2 {
+  0% {
+    transform: translateX(0px)
+  }
+  50% {
+    transform: translateX(-350px)
+  }
+  100% {
+    transform: translateX(0px)
+  }
+}
+
+@keyframes cloud3 {
+  0% {
+    transform: translateX(0px)
+  }
+  50% {
+    transform: translateX(200px)
+  }
+  100% {
+    transform: translateX(0px)
+  }
+}
+
+@keyframes cloud4 {
+  0% {
+    transform: translateX(0px)
+  }
+  50% {
+    transform: translateX(-200px)
+  }
+  100% {
+    transform: translateX(0px)
+  }
 }

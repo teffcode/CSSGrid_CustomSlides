@@ -29,6 +29,11 @@ import Slide11_1 from './components/Slide11_1/Slide11_1';
 import Slide12 from './components/Slide12/Slide12';
 import Slide13 from './components/Slide13/Slide13';
 
+import cloud1 from './assets/cloud1.png';
+import cloud2 from './assets/cloud2.png';
+import cloud3 from './assets/cloud3.png';
+import cloud4 from './assets/cloud4.png';
+
 import './App.css';
 
 class App extends Component {
@@ -84,7 +89,13 @@ class App extends Component {
     return (
       <div>
         <Header className="header">
-          <Logo/>       
+          <Logo/>  
+          <div>   
+            <img src={cloud1} alt="cloud1" className="header_cloud1" />  
+            <img src={cloud2} alt="cloud2" className="header_cloud2" />  
+            <img src={cloud3} alt="cloud3" className="header_cloud3" />  
+            <img src={cloud4} alt="cloud4" className="header_cloud4" />  
+          </div>     
         </Header>
         <SectionsContainer className="container" {...options} activeSection={current}>
           <Section color="#FFF" verticalAlign="true">
