@@ -24,9 +24,11 @@ const Slide12 = () =>
         <Title>Did you like my presentation ?</Title>
         <img src={frannerd_sticker_perfect} alt="frannerd_sticker_perfect"/>
         <Text>
-            <li>React JS</li>
-            <li>Styled Components</li>
-            <li>Fullpage.js</li>
+            <ul>
+                <li>React JS</li>
+                <li>Styled Components</li>
+                <li>Fullpage.js</li>
+            </ul>
         </Text>
         <TextWithLink pink link="https://github.com/teffcode/CSSGrid_CustomSlides">Repository</TextWithLink>      
     </Slide12Container>;

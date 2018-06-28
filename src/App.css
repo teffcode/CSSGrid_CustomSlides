@@ -12,6 +12,14 @@ html {
   box-sizing: inherit;
 }
 
+ul {
+  list-style: none
+}
+
+li::before {
+  content: "• "; color: #d6c3f2;
+}
+
 img {
   width: 400px;
   height: 200px;

@@ -19,11 +19,13 @@ const Slide6 = () =>
     <Slide6Container>
         <Title>Content</Title>
         <Text>
-            <li>Basics of CSS Grid</li>
-            <li>Important terminology</li>
-            <li>Repeaters, measurement units & functions</li>
-            <li>Other properties</li>
-            <li>Can I Use ?</li>
+            <ul>
+                <li>Basics of CSS Grid</li>
+                <li>Important terminology</li>
+                <li>Repeaters, measurement units & functions</li>
+                <li>Other properties</li>
+                <li>Can I Use ?</li>
+            </ul>
         </Text>
     </Slide6Container>
     
