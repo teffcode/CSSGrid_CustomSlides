@@ -21,7 +21,7 @@ const Slide10_1_1Container = styled.div`
 const Slide10_1_1 = () => 
     <Slide10_1_1Container>
         <TextBackground>implicit grid (grid-auto-flow)</TextBackground>
-        <img src={implicit2} />
+        <img src={implicit2} alt="implicit2"/>
     </Slide10_1_1Container>
 
 export default Slide10_1_1;

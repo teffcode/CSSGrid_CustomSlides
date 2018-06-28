@@ -15,7 +15,7 @@ const TextWithLinkStyled = styled.a`
 
 const TextWithLink = ({ pink, link, children }) => 
     <TextWithLinkContainer pink={pink}>
-        <i class="fa fa-link"></i>
+        <i className="fa fa-link"></i>
         <TextWithLinkStyled pink={pink} href={link}>{children}</TextWithLinkStyled>
     </TextWithLinkContainer>
 

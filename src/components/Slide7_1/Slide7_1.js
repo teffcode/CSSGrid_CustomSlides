@@ -21,7 +21,7 @@ const Slide7_1Container = styled.div`
 const Slide7_1 = () => 
     <Slide7_1Container>
         <TextBackground>Container</TextBackground>
-        <img src={cssgrid1} />
+        <img src={cssgrid1} alt="cssgrid1"/>
     </Slide7_1Container>
 
 export default Slide7_1;

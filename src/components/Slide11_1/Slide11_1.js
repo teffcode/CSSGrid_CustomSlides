@@ -20,7 +20,7 @@ const Slide11_1Container = styled.div`
 
 const Slide11_1 = () => 
     <Slide11_1Container>
-        <img src={can_i_use} />
+        <img src={can_i_use} alt="can_i_use"/>
         <TextWithLink link="https://caniuse.com/#search=css%20grid">Can I use</TextWithLink>
     </Slide11_1Container>
 
