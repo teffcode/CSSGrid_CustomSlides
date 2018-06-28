@@ -63,7 +63,7 @@ header img {
 footer {
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 footer a {
@@ -89,6 +89,10 @@ a:hover {
 button {
   width: 50px;
   padding: 8px;
+  cursor: pointer;
+  background: none;
+  font-family: 'Source Code Pro', monospace;
+  border-radius: 3px;
 }
 
 .btnGroup {
