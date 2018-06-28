@@ -11,6 +11,7 @@ import Slide6 from './components/Slide6/Slide6';
 import Slide7 from './components/Slide7/Slide7';
 import Slide7_1 from './components/Slide7_1/Slide7_1';
 import Slide7_2 from './components/Slide7_2/Slide7_2';
+import Slide7_3 from './components/Slide7_3/Slide7_3';
 import Slide8 from './components/Slide8/Slide8';
 import Slide8_1 from './components/Slide8_1/Slide8_1';
 import Slide8_2 from './components/Slide8_2/Slide8_2';
@@ -57,6 +58,7 @@ class App extends Component {
                 'Slide7/basics_of_css_grid',
                 'Slide7_1/basics_of_css_grid',
                 'Slide7_2/basics_of_css_grid',
+                'Slide7_3/basics_of_css_grid',
                 'Slide8/important_terminology',
                 'Slide8_1/important_terminology',
                 'Slide8_2/important_terminology',
@@ -124,6 +126,9 @@ class App extends Component {
           </Section>
           <Section color="#FFF" verticalAlign="true">
             <Slide7_2/>          
+          </Section>
+          <Section color="#FFF" verticalAlign="true">
+            <Slide7_3/>          
           </Section>
           <Section color="#FFF" verticalAlign="true">
             <Slide8/>          
