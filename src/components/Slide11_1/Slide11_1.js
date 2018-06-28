@@ -12,7 +12,7 @@ const Slide11_1Container = styled.div`
     align-items: center;
     flex-direction: column;
     img {
-        width: 60%;
+        width: 800px;
         height: 450px;
         margin-bottom: 30px;
     }
