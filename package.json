@@ -2,6 +2,7 @@
   "name": "slides_medellincss",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://teffcode.github.io/CSSGrid_CustomSlides/",
   "dependencies": {
     "fullpage.js": "^2.9.7",
     "gh-pages": "^1.2.0",
